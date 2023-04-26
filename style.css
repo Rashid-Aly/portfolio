@@ -1057,8 +1057,9 @@ hr {
 
 
 /* footer section start here */
-.footerbg {
+#footerbg {
      width: 100%;
+     height: 40vh;
      background-color: #0F0F0F;
 }
 
@@ -1072,26 +1073,27 @@ hr {
 .child2 ul a i {
      background-color: #161617;
      color: #c49b66;
-     padding: 18px;
+     padding: 14px;
      border-radius: 10px;
-     margin-left: 16px;
-     margin-top: 40px;
-     margin-bottom: 20px;
+     margin-left: 20px;
+     margin-top: 30px;
+     margin-bottom: 25px;
      transform: rotate(45deg);
 
 }
 
 .child1 h1 {
-     margin-top: 70px;
+     padding-top: 50px;
      color: white;
-     /* font-weight: 40px; */
+     font-weight: 800;
 }
 
-.footerh5 h5 {
+.footer h5 {
      color: white;
      letter-spacing: 2px;
      margin-left: 20px;
      margin-bottom: 50px;
+     font-size: 12px;
 }
 
 /* footer section start here */
@@ -1101,7 +1103,7 @@ hr {
 /* footer section media query start here */
 
 @media (max-width:768px) {
-     .footerh5 h5 {
+     .footer h5 {
           margin-top: 10px;
           font-size: 10px;
           padding-bottom: 40px;
@@ -1111,6 +1113,10 @@ hr {
 
           font-size: 30px;
           font-weight: lighter;
+     }
+
+     .child2 ul a i {
+          padding: 12px;
      }
 }
 
